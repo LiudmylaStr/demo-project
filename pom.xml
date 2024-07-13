@@ -59,24 +59,7 @@
                     </includes>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-maven-plugin</artifactId>
-                <version>...</version>
-                <executions>
-                    <execution>
-                        <id>execution-id</id>
-                        <phase>test</phase>
-                        <configuration>
-                            <format>json</format>
-                            <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
-                        </configuration>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+
         </plugins>
     </build>
 
